@@ -2,12 +2,12 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
-import ConfirmButton2 from "./chapter08/ConfirmButton2";
+import ConfirmButtonFunction from "./chapter08/ConfirmButtonFunction";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   // <React.StrictMode>
-  <ConfirmButton2 />
+  <ConfirmButtonFunction />
   // </React.StrictMode>
 );
 
