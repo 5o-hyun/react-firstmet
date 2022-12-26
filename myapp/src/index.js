@@ -2,13 +2,12 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
-import ConfirmButtonFunction from "./chapter08/ConfirmButtonFunction";
-import RendingPage from "./chapter09/RendingPage";
+import AttendanceBook from "./chapter10/AttendanceBook";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   // <React.StrictMode>
-  <RendingPage />
+  <AttendanceBook />
   // </React.StrictMode>
 );
 
